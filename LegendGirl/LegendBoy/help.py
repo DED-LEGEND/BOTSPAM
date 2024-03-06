@@ -12,20 +12,7 @@ else:
 
 @Client.on_message(filters.command(["dxhelp"], prefixes=HANDLER))
 async def _help(Legend: Client, message: Message):
-    HELP_MSG = "╔═════❰🇼𝐄𝐋𝐋𝐂𝐎𝐌𝐄❱═❍
-║╔═════🦋۩۞۩🦋════╗
-║     𝐃𝐌 𝐏𝐌 𝐍𝐎𝐓 𝐀𝐥𝐥𝐨𝐰 
-║╚═════🦋۩۞۩🦋════╝
-║ ┏━━━━━━➣
-║ ┣⪼ ᴏᴡɴᴇʀ (@ll_LEGEND_ll)
-║ ┗━━━━━━➣
-╚════════════════❍
-┏━━━━━━➣
-┣⪼  [ @DX_INFO ]
-┗━━━━━━➣
-┏━━━━━━➣
-┣⪼  { @DXallBot }
-┗━━━━━━➣"
+    HELP_MSG = "𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐡𝐞𝐥𝐩 𝐜𝐦𝐝𝐞 𝐨𝐰𝐧𝐞𝐫 𝐛𝐲 @YARANA_TG"
     if ".jpg" in HELP_PIC or ".png" in HELP_PIC:
         await Legend.send_photo(
             message.chat.id,
